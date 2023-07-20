@@ -33,7 +33,7 @@ function division() {
     result="Error: Division by zero is not allowed."
   fi
 }
-
+ 
 # Function to perform modulo
 function modulo() {
   if [ $2 -ne 0 ]; then
