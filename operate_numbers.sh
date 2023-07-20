@@ -13,7 +13,7 @@ function addition() {
 # Main script starts here
 
 echo "Please enter six numbers separated by spaces:"
-# read num1 num2 num3 num4 num5 num6
+echo $num1 $num2 $num3 $num4 $num5 $num6
 
 addition $num1 $num2 $num3 $num4 $num5 $num6
 echo "The sum of $num1, $num2, $num3, $num4, $num5, and $num6 is: $result"
