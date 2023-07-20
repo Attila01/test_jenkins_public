@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+
 # Function to perform addition
 function addition() {
   result=$(($1 + $2))
