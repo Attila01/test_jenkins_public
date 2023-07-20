@@ -36,7 +36,7 @@ function modulo() {
 # the Main script starts here
 
 echo "Please enter six numbers separated by spaces:"
-read $num1 $num2 $num3 $num4 $num5 $num6
+# read $num1 $num2 $num3 $num4 $num5 $num6
 
 addition $num1 $num2
 echo "Addition of $num1 and $num2 is: $result"
