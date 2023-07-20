@@ -48,8 +48,11 @@ function modulo() {
 echo "Please enter six numbers separated by spaces:"
 # read num1 num2 num3 num4 num5 num6
 
-addition2 $num1 $num2
-echo "Addition of $num1 and $num2 is: $result"
+addition2 $num1 $num6
+echo "Addition of $num1 and $num6 is: $result"
+
+addition2 $num3 $num4
+echo "Addition of $num3 and $num4 is: $result"
 
 subtraction $num3 $num4
 echo "Subtraction of $num3 and $num4 is: $result"
