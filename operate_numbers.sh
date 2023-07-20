@@ -1,6 +1,7 @@
 #!/bin/bash
+echo "starting scrip 1"
+# Function to perform additiont 1
 
-# Function to perform addition
 function addition() {
   local sum=0
   for num in "$@"; do
@@ -18,7 +19,7 @@ addition $num1 $num2 $num3 $num4 $num5 $num6
 echo "The sum of $num1, $num2, $num3, $num4, $num5, and $num6 is: $result"
 
 #!/bin/bash
-
+echo "starting scrip 2"
 # Function to perform addition
 function addition() {
   result=$(($1 + $2))
