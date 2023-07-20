@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 # Function to perform addition
 function addition() {
   result=$(($1 + $2))
@@ -33,7 +33,7 @@ function modulo() {
   fi
 }
 
-# Main script starts here
+# the Main script starts here
 
 echo "Please enter six numbers separated by spaces:"
 read $num1 $num2 $num3 $num4 $num5 $num6
